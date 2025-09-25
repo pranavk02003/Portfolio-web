@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+  <img src="Logo.png" alt="Logo" width="65" height="65" class="d-inline-block align-text-top">
+  
+</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero d-flex align-items-center text-center">
+    <div class="container">
+      <h1>Hello, I'm <span class="text-primary">Pranav K</span></h1>
+      <p class="lead">MERN web developer |
+        Full Stack web developer
+      </p>
+      <a href="#portfolio" class="btn btn-primary btn-lg">View My Work</a>
+    </div>
+  </section>
+
+  
+<!-- About Section -->
+<section id="about" class="py-5 bg-dark text-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <img src="Profile-pic.PNG" alt="Profile" class="img-fluid rounded-circle shadow">
+        </div>
+        <div class="col-md-8">
+          <h2>About Me</h2>
+          <p>I am a aspiring web developer with a strong background in HTML, CSS, Bootstrap, and JavaScript. I love building creative, responsive, and user-friendly websites.Currently honing my skills through Entri Elevate. I love turning ideas into interactive experiences and am always curious to explore new challenges that push my creativity and coding abilities."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="about" class="bg-dark text-white py-5">
+    <div class="container text-center bg-secondary">
+  <div class="row row-cols-8 bg-dark text-secondary">
+    <div class=" col">HTML</div>
+    <div class="col">CSS</div>
+    <div class="col">JavaScript</div>
+    <div class="col">Node.Js</div>
+    <div class="col">React</div>
+    <div class="col">Git</div>
+    <div class="col">GitHub</div>
+  </div>
+</div>
+</section>
+
+  <!-- Projects Section -->
+  <section id="projects" class=" bg-dark text-white py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">My Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://cdn.dribbble.com/userupload/44650212/file/e8894d69ee7c7042967446336878e4bb.png?resize=400x0" class="card-img-top" alt="Portfolio website">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio</h5>
+              <p class="card-text">A responsive portfolio website built with Bootstrap.</p>
+              <a href="#" class="btn btn-outline-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://cmsmart.net/images/community/8382/banner.jpg" class="card-img-top" alt="E-commerce design">
+            <div class="card-body">
+              <h5 class="card-title">E-commerce design</h5>
+              <p class="card-text">An e-commerce landing page design.</p>
+              <a href="#" class="btn btn-outline-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://cdn.dribbble.com/userupload/35190298/file/original-5d218dce9e335ab3d2a4dcd006422f02.jpg?resize=400x0" class="card-img-top" alt="blog page">
+            <div class="card-body">
+              <h5 class="card-title">blog page</h5>
+              <p class="card-text">A blog template using HTML and CSS.</p>
+              <a href="#" class="btn btn-outline-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="bg-dark text-white py-5">
+    <div class="container text-center">
+      <h2>Resume</h2>
+      <p>Download my resume for more details about my career and education.</p>
+      <a href="assets/resume.pdf" class="btn btn-primary" download>Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-dark text-white py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form class="col-md-6 mx-auto">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark w-100">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class=" text-white text-center py-3">
+   <div class="footer"><p>© 2025 MyPortfolio | Built with HTML, CSS & Bootstrap</p>
+    <h4>community</h4>
+    <li><a href="#github">GitHub</a></li>
+     <li><a href="#youtube">Youtube</a></li>
+     <li><a href="#discord">Discord</a></li>
+    <li><a href="#whatsapp">whatsapp</a></li>
+   </div>
+    <div class="footer-icons align-items-center">
+        <h4>Connect with me</h4>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
